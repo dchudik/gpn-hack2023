@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "https://dchudik.github.io/gpn-hack2023/",
+  base: "/gpn-hack2023/",
   plugins: [react()],
 });
