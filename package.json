@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dchudik.github.io/gpn-hack2023",
+
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist -m main",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
